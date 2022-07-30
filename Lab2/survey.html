@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey form</title>
+</head>
+
+<body>
+
+    <form>
+
+        <!--Create a textbox for user input-->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" value="SzeMan"><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" value="Kwok" required placeholder="max 30 characters"><br><br>
+
+        <!--Create a drop-down list for selection-->
+        <label for ="tos">Type of Shirt:</label>
+        <select id="tos" name="tos">
+            <option value="Sleeveless" selected>Sleeveless</option>
+            <option value="Polo">Polo</option>
+            <option value="Hoody">Hoody</option>
+            <option value="T-shirt">T-shirt</option>
+        </select><br><br>
+
+        <!-- Create radio buttons with medium checked-->
+        <label>Size:</label>
+        <input type="radio" id="s1" name="size" value="Large">
+        <label for="s1">Large</label>
+
+        <input type="radio" id="s2" name="size" value="Medium" checked>
+        <label for="s2">Medium</label>
+
+        <input type="radio" id="s3" name="size" value="Small">
+        <label for="s3">Small</label><br><br>
+
+        <!--Create a checkbox-->
+        <label>Color:</label>
+        <input type="checkbox" id="c1" name="red" value="Red">
+        <label for="c1">Red</label>
+
+        <input type="checkbox" id="c2" name="navy" value="Navy" checked>
+        <label for="c2">Navy</label>
+
+        <input type="checkbox" id="c3" name="black" value="Black">
+        <label for="c3">Black</label><br><br>
+
+        <!--Create a text area for comments-->
+        <label for="cm">Comments?</label><br>
+        <textarea name="comments" id="cm" rows="4" cols="40"></textarea><br><br>
+
+        <!--Create the submit button-->
+        <button type="submit">Buy Now!</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+
+</body>
+
+
+</html>
+
